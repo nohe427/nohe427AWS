@@ -29,7 +29,10 @@ function initialize() {
   cloudLayer.setMap(map);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 google.maps.event.addDomListener(window, 'load', initialize);
+=======
+>>>>>>> parent of af8e44e... Update script.js
 =======
 >>>>>>> parent of af8e44e... Update script.js
