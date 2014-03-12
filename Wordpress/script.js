@@ -1,6 +1,6 @@
 function initialize() {
         var mapOptions = {
-          center: Redlands CA,
+          center: new google.maps.LatLng(34.0774566,-117.1871623),
           zoom: 12
         };
         var map = new google.maps.Map(document.getElementById("map-canvas"),
