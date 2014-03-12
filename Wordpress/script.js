@@ -5,8 +5,6 @@ function initialize() {
         };
         var map = new google.maps.Map(document.getElementById("map-canvas"),
             mapOptions);
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
       
       var weatherLayer = new google.maps.weather.WeatherLayer({
     temperatureUnits: google.maps.weather.TemperatureUnit.FAHRENHEIT
@@ -16,3 +14,5 @@ function initialize() {
   var cloudLayer = new google.maps.weather.CloudLayer();
   cloudLayer.setMap(map);
 }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
