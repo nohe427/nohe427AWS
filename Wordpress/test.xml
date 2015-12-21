@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
 <Say voice="man" language="en-gb">Hello, David!  Please hold while I connect you</Say>
-<Number>4435679966</Number>
+<Dial>
+  <Number>4435679966</Number>
+</Dial>
 </Response>
